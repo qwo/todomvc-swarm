@@ -13,7 +13,7 @@
     "react": "^0.11.0",
     "react-tools": "^0.11.0",
     "swarm": "git+https://github.com/gritzko/swarm.git",
-    "ws": "^0.4.31"
+    "ws": "^3.3.1"
   },
   "devDependencies": {
     "browserify": "^2.36.0",
@@ -38,6 +38,6 @@
     ]
   },
   "browserify-shim": {
-      "react": "global:React"
+    "react": "global:React"
   }
 }
